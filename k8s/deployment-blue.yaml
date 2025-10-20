@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: your-docker-username/blue-green-demo:blue
+        image: samudini914/blue-green-demo:blue
         ports:
         - containerPort: 80
