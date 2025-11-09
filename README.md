@@ -99,7 +99,7 @@ cd Blue-Green-Deployment-With-Digitalocean
 ### 3. Create DigitalOcean Kubernetes Cluster
 
 ![Create Cluster](./screenshots/4.png)
-> *Add screenshot of DigitalOcean cluster creation page*
+
 
 **Configuration**:
 - Kubernetes Version: **1.31.x**
@@ -111,7 +111,7 @@ cd Blue-Green-Deployment-With-Digitalocean
 ### 4. Install ArgoCD
 
 ![ArgoCD Marketplace](./screenshots/5.png)
-> *Add screenshot of ArgoCD in DigitalOcean Marketplace*
+
 
 1. Navigate to **Marketplace** tab in your cluster
 2. Search for "ArgoCD"
@@ -121,7 +121,7 @@ cd Blue-Green-Deployment-With-Digitalocean
 ### 5. Access ArgoCD Dashboard
 
 ![ArgoCD Dashboard](./screenshots/9.png)
-> *Add screenshot of ArgoCD login page*
+
 
 1. Go to **Networking** tab
 2. Find ArgoCD Server LoadBalancer IP
@@ -137,7 +137,7 @@ cd Blue-Green-Deployment-With-Digitalocean
 #### Step 1: Create Blue Application in ArgoCD
 
 ![Create App](./screenshots/12.png)
-> *Add screenshot of ArgoCD new application form*
+
 
 Click **+ NEW APP** and configure:
 
@@ -158,7 +158,7 @@ Click **+ NEW APP** and configure:
 #### Step 2: Sync Blue Application
 
 ![Sync Blue App](./screenshots/14.png)
-> *Add screenshot of syncing process*
+
 
 1. Click on `blue-app` tile
 2. Click **SYNC** button
@@ -168,7 +168,7 @@ Click **+ NEW APP** and configure:
 #### Step 3: Access Blue Version
 
 ![Blue Version](./screenshots/20.png)
-> *Add screenshot of Blue version in browser*
+
 
 1. Go to **Networking → Load Balancers**
 2. Find `blue-service` LoadBalancer
@@ -182,7 +182,7 @@ Click **+ NEW APP** and configure:
 Repeat the same process for Green application:
 
 ![Green App Setup](./screenshots/22.png)
-> *Add screenshot of Green app in ArgoCD*
+
 
 - Application Name: `green-app`
 - Repository: `https://github.com/YOUR-USERNAME/green-app-demo`
@@ -190,7 +190,7 @@ Repeat the same process for Green application:
 **Expected Result**: 🟢 GREEN VERSION - v2.0
 
 ![Green Version](./screenshots/21.png)
-> *Add screenshot of Green version in browser*
+
 
 ### Phase 3: Create Production Service
 
